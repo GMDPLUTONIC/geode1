@@ -69,10 +69,10 @@ struct CustomMenuLayer : Modify<CustomMenuLayer, MenuLayer> {
                 static_cast<SEL_MenuHandler>(geodeBtnSelector)
             );
             btn->setID("geode-button"_spr);
-            bottomMenu->addChild(btn);
+//            bottomMenu->addChild(btn);
             bottomMenu->setContentSize({ winSize.width / 2, bottomMenu->getScaledContentSize().height });
 
-            bottomMenu->updateLayout();
+//            bottomMenu->updateLayout();
 
             this->fixSocialMenu();
 
